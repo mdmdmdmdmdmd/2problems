@@ -1,10 +1,12 @@
 # 2problems
 
-nstructions:
+Add unit test cases. 
+Please make any assumptions you want and state them clearly.
+Ensure that you have handled any edge case scenarios carefully. 
 
-Please solve the below two programs in any programming language you are most comfortable(preferably Python) and add unit test cases. Create a github repo and email back the link within 7 days of receiving this email.
-
-Please make any assumptions you want and state them clearly. Ensure that you have handled any edge case scenarios carefully. Emphasize will be given to accuracy, performance and readability aspects as well.
+-accuracy
+-performance 
+-readability
 
  
 
