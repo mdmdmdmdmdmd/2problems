@@ -1,6 +1,5 @@
 # src/main.py
 
-import time 
 import re
 
 def split_and_remove_punctuation(statement):
