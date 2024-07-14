@@ -19,11 +19,15 @@ python src/main.py
 
 ## How to Run Tests
 ```bash
-#Install the Python plugin for Gauge:
+#Install the Python plugin for Gauge
 gauge install python
 
-#Initialize a new Gauge project:
+#Initialize a new Gauge project
 gauge init python
+
+#Run the test
+gauge run specs
+
 
 
 ```
