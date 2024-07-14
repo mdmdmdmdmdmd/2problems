@@ -27,7 +27,8 @@ def find_word_with_most_chars(statement, char):
     if max_count>0:
         return max_word
     return None
-    
+
+
 def main():
     # Get user input for the statement and the character
     statement = input("Enter a statement: ")
@@ -43,12 +44,10 @@ def main():
     bold_start = "\033[1m"
     bold_end = "\033[0m"
         
-    if result:
-       
+    if result:       
         print(f"\n\nThe word with the most occurrences of '{char}' is: {bold_start}{result}{bold_end}")
     else:
         print(f"\n\nNo word contains the character {bold_start}'{char}'{bold_end}.")
-
 
 
 # Run the main function when the script is executed
