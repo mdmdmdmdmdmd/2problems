@@ -38,14 +38,18 @@ def main():
         return
 
     result = find_word_with_most_chars(statement, char)
-    
+     
+    # ANSI escape code for bold text
+    bold_start = "\033[1m"
+    bold_end = "\033[0m"
+        
     if result:
-        # ANSI escape code for bold text
-        bold_start = "\033[1m"
-        bold_end = "\033[0m"
+       
         print(f"\n\nThe word with the most occurrences of '{char}' is: {bold_start}{result}{bold_end}")
     else:
-        print(f"No word contains the character '{char}'.")
+        print(f"\n\nNo word contains the character {bold_start}'{char}'{bold_end}.")
+
+
 
 # Run the main function when the script is executed
 if __name__ == "__main__":
