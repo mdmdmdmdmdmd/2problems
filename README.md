@@ -5,11 +5,13 @@ This repository contains the solution to the coding problem assigned by JPMC. It
 
 ## How to Install and Run the Code
 
-1. Clone the repository
-```bash
-git clone https://github.com/mdmdmdmdmdmd/2problems.git
-cd 2problems
-```bash
+  1. Clone the repository
+  ```bash
+  git clone https://github.com/mdmdmdmdmdmd/2problems.git
+  cd 2problems
+
+
 ## How to Run Tests
 
 ## Any other relevant information
+
