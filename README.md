@@ -9,7 +9,7 @@ This repository contains the solution to the 2 coding problems assigned by JPMC.
 To install the dependencies, run the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install -r required_libs.txt
 ```
 
 ## How to Run the Code
