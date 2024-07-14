@@ -26,3 +26,27 @@ def find_word_with_most_chars(statement, char):
 
     if max_count>0:
         return max_word
+    return None
+    
+def main():
+    # Get user input for the statement and the character
+    statement = input("Enter a statement: ")
+    char = input("\nEnter a character to search for: ")
+    
+    if len(char) != 1:
+        print("Please enter a single character.")
+        return
+
+    result = find_word_with_most_chars(statement, char)
+    
+    if result:
+        # ANSI escape code for bold text
+        bold_start = "\033[1m"
+        bold_end = "\033[0m"
+        print(f"\n\nThe word with the most occurrences of '{char}' is: {bold_start}{result}{bold_end}")
+    else:
+        print(f"No word contains the character '{char}'.")
+
+# Run the main function when the script is executed
+if __name__ == "__main__":
+    main()
