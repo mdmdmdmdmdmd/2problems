@@ -32,7 +32,8 @@ print(f"Random Statement: {random_statement}")
 start_time = time.time()
 
 char='k'
-find_word_with_most_chars(random_statement, char)
+
+print(f"Result time:{find_word_with_most_chars(random_statement, char)}")
 
 end_time = time.time()
 
