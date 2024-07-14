@@ -4,7 +4,8 @@ import re
 
 def split_and_remove_punctuation(statement):
     # Use regex to replace punctuation with spaces
-    statement = re.sub(r'[^\w\s]', ' ', statement)
+    # Keep hyphens (-) and apostrophes (') as they are typically part of words
+    statement = re.sub(r"[^\w\s'-]", ' ', statement)
     # Split into words
     words = statement.split()
     return words
@@ -25,5 +26,3 @@ def find_word_with_most_chars(statement, char):
 
     if max_count>0:
         return max_word
-
-
