@@ -1,7 +1,7 @@
 # Coding Problems Repository
 
 ## Description
-This repository contains the solution to the 2 coding problems assigned by JPMC. It includes the source code, assumption descriptions, unit test cases and results, and explanations.
+This repository contains the solution to the 2 coding problems assigned by JPMC. It includes the source code, unit test cases/results, and explanations.
 
 ## How to Install and Run the Code
 
