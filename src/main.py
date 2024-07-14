@@ -24,6 +24,7 @@ def find_word_with_most_chars(statement, char):
             if statement.index(max_word) > statement.index(word):
                 max_word = word
 
-    return max_word
+    if max_count>0:
+        return max_word
 
 
