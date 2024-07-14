@@ -18,8 +18,10 @@ python src/main.py
 ```
 
 ## How to Run Tests
-  ```bash
+```bash
+pytest tests/
 ```
+
 
 ## Any other relevant information
   ```bash
