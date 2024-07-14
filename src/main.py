@@ -1,7 +1,5 @@
 # src/main.py
 
-import re
-
 def split_and_remove_punctuation(statement):
     # Use regex to replace punctuation with spaces
     statement = re.sub(r'[^\w\s]', ' ', statement)
