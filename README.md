@@ -12,6 +12,8 @@ This repository contains the solution to the coding problem assigned by JPMC. It
 
 
 ## How to Run Tests
+  ```bash
 
 ## Any other relevant information
+  ```bash
 
