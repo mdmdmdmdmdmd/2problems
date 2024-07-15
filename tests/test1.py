@@ -1,7 +1,7 @@
 # tests/test1.py
 
 import pytest
-from src.main import split_and_remove_punctuation, find_word_with_most_chars
+from src.main1 import split_and_remove_punctuation, find_word_with_most_chars
 
 def test_split_and_remove_punctuation():
     assert split_and_remove_punctuation("Hello, world!") == ["Hello", "world"]
