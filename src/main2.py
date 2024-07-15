@@ -1,6 +1,11 @@
 def longest_sequence_of_1s_start_position(num):
     # Convert number to binary string without the '0b' prefix
-    binary_representation = bin(num)[2:]
+    if num < 0:
+        # Convert negative number to binary and take substring from 3rd character
+        binary_representation = bin(num)[3:]
+    else:
+        # Convert positive number to binary and take substring from 2nd character
+        binary_representation = bin(num)[2:]
     
     max_length = 0
     max_start_position = -1
