@@ -51,9 +51,9 @@ pytest -v tests/test2.py
 
 ## Assumptions
 
-   **- Hyphens (`-`) and apostrophes (`'`) are considered part of words and are not removed.**<br>
-   **- The input character for `find_word_with_most_chars` should be a single character.**<br>
-   **- The function treats words case-sensitively when counting character occurrences.**
+> **- Hyphens (`-`) and apostrophes (`'`) are considered part of words and are not removed.**<br>
+> **- The input character for `find_word_with_most_chars` should be a single character.**<br>
+> **- The function treats words case-sensitively when counting character occurrences.**
 
 ## Edge Cases
 
