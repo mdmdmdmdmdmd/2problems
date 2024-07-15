@@ -112,22 +112,19 @@ By following the above logic and considering the assumptions and edge cases, the
 1. **Input is 0**:
    - When the input is 0, the binary representation is `0`. There are no 1s, so the function should return 0.
 
-2. **No 1s in Binary Representation**:
-   - If the binary representation of the number does not contain any 1s (e.g., numbers like 0), the function should handle this gracefully.
-
-3. **All 1s in Binary Representation**:
+2. **All 1s in Binary Representation**:
    - If the binary representation of the number is all 1s (e.g., numbers like 7 which is `111` in binary), the function should correctly identify the entire string as the longest sequence.
 
-4. **Multiple Sequences of 1s**:
+3. **Multiple Sequences of 1s**:
    - If there are multiple sequences of 1s of the same maximum length, the function should return the starting position of the first such sequence.
 
-5. **Single Long Sequence in the Middle**:
+4. **Single Long Sequence in the Middle**:
    - If the longest sequence of 1s is surrounded by 0s on both sides (e.g., `0011100`), the function should still correctly identify the starting position of this sequence.
 
-6. **Single Character Input**:
+5. **Single Character Input**:
    - If the binary representation is a single character (either `0` or `1`), the function should handle it correctly.
 
-7. **Negative Numbers**:
+6. **Negative Numbers**:
    - The function correctly handles negative numbers by ignoring the sign bit and considering the two's complement representation.
 
 
