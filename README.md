@@ -36,43 +36,20 @@ pytest -v tests/test2.py
 
 ### Function: `split_and_remove_punctuation`
 
-**Remove Punctuation=>Split Statement into Words=>Return the List of Words***
+   **Remove Punctuation=>Split Statement into Words=>Return the List of Words***
    - The function uses a regular expression to replace all characters that are not word characters (`\w`), whitespace (`\s`), hyphens (`-`), or apostrophes (`'`) with a space.
    - This preserves hyphens and apostrophes as they are often part of words (e.g., "it's", "test-case").
 
 
 ### Function: `find_word_with_most_chars`
 
-1. **Split the Statement**:
-   - The function first calls `split_and_remove_punctuation` to get a list of words from the statement.
+   **Split the Statement=>Initialize Counters=>Iterate Through Words=>Return Result**:
 
-2. **Initialize Counters**:
-   - `max_count` is initialized to 0 to keep track of the maximum number of occurrences of the character.
-   - `max_word` is initialized to an empty string to store the word with the most occurrences of the character.
-
-3. **Iterate Through Words**:
-   - For each word, the function counts the occurrences of the specified character using the `count()` method.
-   - If the count is greater than `max_count`, or if the count is equal to `max_count` but the word is longer than `max_word`, the function updates `max_count` and `max_word`.
-   - If the count and length are the same, the function checks the index of the current `max_word` and the current word in the statement. If the current word appears earlier, it updates `max_word`.
-
-4. **Return Result**:
-   - If `max_count` is greater than 0, the function returns `max_word`.
-   - Otherwise, it returns `None`.
 
 ### Function: `main`
 
-1. **Get User Input**:
-   - The function prompts the user to enter a statement and a character.
+   **Get User Input=>Validate Input=>Find Word with Most Occurrences of the Character=>Print Result**:
 
-2. **Validate Input**:
-   - If the length of the character input is not 1, the function prints an error message and returns.
-
-3. **Find Word with Most Occurrences of the Character**:
-   - The function calls `find_word_with_most_chars` with the user's inputs.
-
-4. **Print Result**:
-   - If a word is found, it prints the word in bold using ANSI escape codes.
-   - If no word is found, it prints a message indicating that no word contains the character.
 
 ## Assumptions
 
