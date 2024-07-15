@@ -29,7 +29,7 @@ pytest -v tests/test2.py
 
 
 ## Explanation of the Solutions
-## [Problem 1] `src/main1.py` Explanation
+### [Problem 1] `src/main1.py` 
 ---
 ## Logic
 
@@ -87,7 +87,7 @@ By following the above logic and considering the assumptions and edge cases, the
 
 
 
-## [Problem 2] `src/main2.py` Explanation
+### [Problem 2] `src/main2.py` 
 ---
 ## Logic
 
