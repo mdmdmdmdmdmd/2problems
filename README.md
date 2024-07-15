@@ -19,8 +19,8 @@ python src/main.py
 
 ## How to Run Tests
 ```bash
-#make sure the pytest package is installed
-pip install pytest
+# Ensure the pytest package is installed. If not, run the following command:
+# pip install pytest
 
 pytest tests/
 ```
