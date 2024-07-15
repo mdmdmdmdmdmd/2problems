@@ -90,3 +90,33 @@ find_word_with_most_chars("Equal count test", 't') => **"test"**
 find_word_with_most_chars("No match here", 'z') => **None**  
 find_word_with_most_chars("It's a tie", 't') => **"It's"**  
 find_word_with_most_chars("An apple", 'A') => **"An"**
+
+
+---
+## [Problem 2] `src/main2.py` Explanation
+---
+
+
+
+## Logic
+
+### Function: `split_and_remove_punctuation`
+
+
+### Function: `find_word_with_most_chars`
+
+
+### Function: `main`
+
+
+## Assumptions
+
+
+## Edge Cases
+
+
+
+
+## Unit Testing Results
+
+
