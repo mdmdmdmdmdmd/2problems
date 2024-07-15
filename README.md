@@ -93,19 +93,77 @@ By following the above logic and considering the assumptions and edge cases, the
 ---
 ## Logic
 
-### Function: `split_and_remove_punctuation`
+### Function: `longest_sequence_of_1s_start_position`
 
+1. **Convert Number to Binary**:
+   - If the number is negative, convert it to a binary string and take the substring from the 3rd character onward to remove the `-` sign and `0b` prefix.
+   - If the number is positive, convert it to a binary string and take the substring from the 2nd character onward to remove the `0b` prefix.
 
-### Function: `find_word_with_most_chars`
+2. **Initialize Variables**:
+   - `max_length` to track the length of the longest continuous sequence of 1s.
+   - `max_start_position` to track the starting position of the longest sequence of 1s.
+   - `current_length` to track the length of the current sequence of 1s.
+   - `current_start_position` to track the starting position of the current sequence of 1s.
 
+3. **Iterate Through Binary Representation**:
+   - Loop through each character in the binary string.
+   - If the character is '1':
+     - If `current_length` is 0, set `current_start_position` to the current index + 1 (1-indexed).
+     - Increment `current_length`.
+     - If `current_length` is greater than `max_length`, update `max_length` and `max_start_position`.
+   - If the character is '0', reset `current_length` to 0.
+
+4. **Return Result**:
+   - If `max_length` is greater than 0, return `max_start_position`.
+   - If no sequence of 1s is found, return 0.
 
 ### Function: `main`
 
+1. **Get User Input**:
+   - Prompt the user to enter a number and convert it to an integer.
+
+2. **Find the Starting Position**:
+   - Call `longest_sequence_of_1s_start_position(num)` with the user input to find the starting position of the longest sequence of 1s.
+
+3. **Print the Result**:
+   - Print the result with the starting position in bold text using ANSI escape codes.
+
+4. **Handle Invalid Input**:
+   - If the user input is not a valid integer, print an error message.
 
 ## Assumptions
 
+1. **Input is an Integer**:
+   - The function assumes that the input is an integer (positive, negative, or zero).
+
+2. **Binary Representation Handling for Negative Numbers**:
+   - For negative numbers, the binary representation excludes the sign bit (i.e., the first three characters are handled).
+
+3. **Position is 1-Indexed**:
+   - The function returns the starting position of the longest continuous sequence of 1s as a 1-indexed value, meaning the first position is 1.
 
 ## Edge Cases
+
+1. **Input is 0**:
+   - When the input is 0, the binary representation is `0`. There are no 1s, so the function should return 0.
+
+2. **No 1s in Binary Representation**:
+   - If the binary representation of the number does not contain any 1s (e.g., numbers like 0), the function should handle this gracefully.
+
+3. **All 1s in Binary Representation**:
+   - If the binary representation of the number is all 1s (e.g., numbers like 7 which is `111` in binary), the function should correctly identify the entire string as the longest sequence.
+
+4. **Multiple Sequences of 1s**:
+   - If there are multiple sequences of 1s of the same maximum length, the function should return the starting position of the first such sequence.
+
+5. **Single Long Sequence in the Middle**:
+   - If the longest sequence of 1s is surrounded by 0s on both sides (e.g., `0011100`), the function should still correctly identify the starting position of this sequence.
+
+6. **Single Character Input**:
+   - If the binary representation is a single character (either `0` or `1`), the function should handle it correctly.
+
+7. **Negative Numbers**:
+   - The function correctly handles negative numbers by ignoring the sign bit and considering the two's complement representation.
 
 
 
