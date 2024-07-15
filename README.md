@@ -36,18 +36,39 @@ pytest -v tests/test2.py
 
 ### Function: `split_and_remove_punctuation`
 
-1. **Import `re` module**:
-   - The `re` module is used for regular expressions in Python.
+```mermaid
+flowchart TD
+    A[Start] --> B[Get user input for statement and character]
+    B --> C{Is the character input length 1?}
+    C -->|No| D[Print error message and return]
+    C -->|Yes| E[Call split_and_remove_punctuation(statement)]
+    E --> F[Initialize max_count to 0 and max_word to ""]
+    F --> G[Iterate through words]
+    G --> H{count > max_count or (count == max_count and length(word) > length(max_word))}
+    H -->|Yes| I[Update max_count and max_word]
+    H -->|No| J{count == max_count and length(word) == length(max_word)}
+    J -->|Yes| K{index of max_word > index of word}
+    K -->|Yes| I
+    K -->|No| L
+    J -->|No| L[Continue iteration]
+    L --> G
+    G --> M{max_count > 0}
+    M -->|Yes| N[Return max_word]
+    M -->|No| O[Return None]
+    N --> P[Print the word with the most occurrences of the character in bold]
+    O --> Q[Print message indicating no word contains the character]
+    P --> R[End]
+    Q --> R[End]
 
 2. **Remove Punctuation**:
    - The function uses a regular expression to replace all characters that are not word characters (`\w`), whitespace (`\s`), hyphens (`-`), or apostrophes (`'`) with a space.
    - This preserves hyphens and apostrophes as they are often part of words (e.g., "it's", "test-case").
 
 3. **Split Statement into Words**:
-   - The modified statement is then split into a list of words using the `split()` method, which splits the string at each whitespace character.
+
 
 4. **Return the List of Words**:
-   - The function returns the list of words.
+
 
 ### Function: `find_word_with_most_chars`
 
