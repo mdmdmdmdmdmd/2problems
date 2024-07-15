@@ -121,13 +121,8 @@ By following the above logic and considering the assumptions and edge cases, the
 4. **Single Long Sequence in the Middle**:
    - If the longest sequence of 1s is surrounded by 0s on both sides (e.g., `0011100`), the function should still correctly identify the starting position of this sequence.
 
-5. **Single Character Input**:
-   - If the binary representation is a single character (either `0` or `1`), the function should handle it correctly.
-
-6. **Negative Numbers**:
+5. **Negative Numbers**:
    - The function correctly handles negative numbers by ignoring the sign bit and considering the two's complement representation.
-
-
 
 
 ## Unit Testing Results
