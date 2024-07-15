@@ -77,7 +77,7 @@ pytest -v tests/test2.py
 5. **Case Sensitivity**:
       - The function counts character occurrences in a case-sensitive manner. For example, 'A' and 'a' are considered different characters.
    
-   By following the above logic and considering the assumptions and edge cases, the functions are designed to handle a variety of input scenarios effectively.
+By following the above logic and considering the assumptions and edge cases, the functions are designed to handle a variety of input scenarios effectively.
 
 
 ## Unit Testing Results
