@@ -40,8 +40,9 @@ pytest -v tests/test2.py
 
 > ### Function: `split_and_remove_punctuation`
       Remove Punctuation=>Split Statement into Words=>Return the List of Words
-      - The function uses a regular expression to replace all characters that are not word \
-      characters (`\w`), whitespace (`\s`), hyphens (`-`), or apostrophes (`'`) with a space.
+      
+      - The function uses a regular expression to replace all characters that are not word 
+            characters (`\w`), whitespace (`\s`), hyphens (`-`), or apostrophes (`'`) with a space.
       - This preserves hyphens and apostrophes as they are often part of words (e.g., "it's", "test-case").
    
 > ### Function: `find_word_with_most_chars`
