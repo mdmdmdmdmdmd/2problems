@@ -19,7 +19,11 @@ def longest_sequence_of_1s_start_position(num):
         else:
             current_length = 0
     
-    return max_start_position
+    if max_length>0:
+        return max_start_position
+    else:
+        return None
+
 
 def main():
     try:
