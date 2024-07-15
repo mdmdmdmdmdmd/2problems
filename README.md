@@ -43,6 +43,7 @@ pytest -v tests/test2.py
       
       - The function uses a regular expression to replace all characters that are not word 
             characters (`\w`), whitespace (`\s`), hyphens (`-`), or apostrophes (`'`) with a space.
+            
       - This preserves hyphens and apostrophes as they are often part of words (e.g., "it's", "test-case").
    
 > ### Function: `find_word_with_most_chars`
