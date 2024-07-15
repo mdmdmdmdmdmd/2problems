@@ -30,7 +30,10 @@ pytest -v tests/test2.py
 
 ## Explanation of the Solutions
 
-### [Problem 1] `src/main1.py` Explanation
+
+[Problem 1] `src/main1.py` Explanation
+======================================
+
 
 ## Logic
 
