@@ -33,7 +33,18 @@ pytest -v tests/test2.py
 ## Logic
 Explain the logic behind your solution here.
 
-## Assumptions
+## Assumptions & Edge Case Scenarios
 Provide an analysis of the time and space complexity of your solution.
 
-## Edge Case Scenarios
+## Unit Testing Results
+[Problem 1]
+tests/test1.py::test_split_and_remove_punctuation1 PASSED                                                        [ 10%]
+tests/test1.py::test_split_and_remove_punctuation2 PASSED                                                        [ 20%]
+tests/test1.py::test_split_and_remove_punctuation3 PASSED                                                        [ 30%]
+tests/test1.py::test_split_and_remove_punctuation4 PASSED                                                        [ 40%]
+tests/test1.py::test_find_word_with_most_chars1 PASSED                                                           [ 50%]
+tests/test1.py::test_find_word_with_most_chars2 PASSED                                                           [ 60%]
+tests/test1.py::test_find_word_with_most_chars3 PASSED                                                           [ 70%]
+tests/test1.py::test_find_word_with_most_chars4 PASSED                                                           [ 80%]
+tests/test1.py::test_find_word_with_most_chars5 PASSED                                                           [ 90%]
+tests/test1.py::test_find_word_with_most_chars6 PASSED                                                           [100%]
