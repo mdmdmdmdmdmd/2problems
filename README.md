@@ -27,8 +27,8 @@ pytest -v tests/test2.py
 ```
 
 
-## Any other relevant information
-# Explanation of the Solution
+
+## Explanation of the Solution
 
 ## Approach
 Describe the approach to solving the problem here.
