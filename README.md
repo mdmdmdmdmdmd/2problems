@@ -30,7 +30,7 @@ pytest -v tests/test2.py
 
 ## Explanation of the Solution
 
-# `src/main1.py` Explanation
+## [Problem 1] `src/main1.py` Explanation
 
 ## Logic
 
@@ -111,8 +111,6 @@ By following the above logic and considering the assumptions and edge cases, the
 
 
 ## Unit Testing Results
-
-[Problem 1]
 
 split_and_remove_punctuation("Hello, world!") => **["Hello", "world"]**  
 split_and_remove_punctuation("It's a test-case.") => **["It's", "a", "test-case"]**  
