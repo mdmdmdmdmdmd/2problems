@@ -28,9 +28,12 @@ def main():
         
         # Find the starting position of the longest sequence of 1s
         result = longest_sequence_of_1s_start_position(num)
-        
+        # ANSI escape code for bold text
+        bold_start = "\033[1m"
+        bold_end = "\033[0m"
+    
         # Print the result
-        print(f"The starting position of the longest continuous sequence of 1s in the binary representation of {num} is: {result}")
+        print(f"The starting position of the longest continuous sequence of 1s in the binary representation of {num} is: {bold_start}{result}{bold_end}")
     
     except ValueError:
         print("Invalid input! Please enter a valid integer.")
