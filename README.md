@@ -101,14 +101,11 @@ By following the above logic and considering the assumptions and edge cases, the
 
 ## Assumptions
 
-**-Input is an Integer**:
-   - The function assumes that the input is an integer (positive, negative, or zero).
+**-Input is an Integer**: The function assumes that the input is an integer (positive, negative, or zero).
 
-**-Binary Representation Handling for Negative Numbers**:
-   - For negative numbers, the binary representation excludes the sign bit (i.e., the first three characters are handled).
+**-Binary Representation Handling for Negative Numbers**: For negative numbers, the binary representation excludes the sign bit (i.e., the first three characters are handled).
 
-**-Position is 1-Indexed**:
-   - The function returns the starting position of the longest continuous sequence of 1s as a 1-indexed value, meaning the first position is 1.
+**-Position is 1-Indexed**: The function returns the starting position of the longest continuous sequence of 1s as a 1-indexed value, meaning the first position is 1.
 
 ## Edge Cases
 
