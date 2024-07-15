@@ -1,4 +1,4 @@
-##Problem 1:
+## Problem 1:
 
 Given a long statement and a input letter, find the word which contains the most number of the given character. If more than one word has the exact same number of the given letter, it should return the word with the most number of total letters, if more than one words have equal number of given character and total number of characters return the word that appeared first in the given statement.
 
@@ -40,7 +40,7 @@ Explanation: Both sentence and everyone have 3 occurrences of letter e and total
 
  
 
-##Problem 2:
+## Problem 2:
 
 Write a function that accept a number and returns the starting position of the longest continuous sequence of 1s in its binary format.
 
