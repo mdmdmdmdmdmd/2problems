@@ -82,11 +82,6 @@ By following the above logic and considering the assumptions and edge cases, the
 
 ## Unit Testing Results
 
-   split_and_remove_punctuation("Hello, world!") => **["Hello", "world"]**  
-   split_and_remove_punctuation("It's a test-case.") => **["It's", "a", "test-case"]**  
-   split_and_remove_punctuation("") => **[]**  
-   split_and_remove_punctuation("No punctuation here") => **["No", "punctuation", "here"]**  
-   
    find_word_with_most_chars("This is a test statement", 't') => **"statement"**  
    find_word_with_most_chars("Another test case", 'e') => **"Another"**  
    find_word_with_most_chars("Equal count test", 't') => **"test"**  
