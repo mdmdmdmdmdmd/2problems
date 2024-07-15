@@ -19,6 +19,7 @@ python src/main.py
 
 ## How to Run Tests
 ```bash
+#make sure the pytest package is installed
 pip install pytest
 
 pytest tests/
