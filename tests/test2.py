@@ -15,6 +15,8 @@ def test_all_ones():
 def test_multiple_sequences():
     assert longest_sequence_of_1s_start_position(75) == 6, "Test case for 75 (1001011) failed"
     assert longest_sequence_of_1s_start_position(29) == 1, "Test case for 29 (11101) failed"
+    assert longest_sequence_of_1s_start_position(219) == 1, "Test case for 219 (11011011) failed"
+    assert longest_sequence_of_1s_start_position(375) == 3, "Test case for 375 (101110111) failed"
 
 def test_negative_number():
     assert longest_sequence_of_1s_start_position(-7) == 1, "Test case for -7 (111) failed"
