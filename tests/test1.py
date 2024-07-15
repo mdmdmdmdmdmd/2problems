@@ -22,6 +22,8 @@ def test_find_word_with_most_chars4():
     assert find_word_with_most_chars("No match here", 'z') == None
 def test_find_word_with_most_chars5(): 
     assert find_word_with_most_chars("It's a tie", 't') == "It's"
+def test_find_word_with_most_chars6(): 
+    assert find_word_with_most_chars("An apple", 'A') == "An"
 
 if __name__ == "__main__":
     pytest.main()
