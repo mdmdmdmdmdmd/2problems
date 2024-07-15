@@ -37,15 +37,17 @@ Explain the logic behind your solution here.
 Provide an analysis of the time and space complexity of your solution.
 
 ## Unit Testing Results
-[Problem 1]
-split_and_remove_punctuation("Hello, world!") => ["Hello", "world"]
-split_and_remove_punctuation("It's a test-case.") => ["It's", "a", "test-case"]
-split_and_remove_punctuation("") => []
-split_and_remove_punctuation("No punctuation here") => ["No", "punctuation", "here"]
 
-find_word_with_most_chars("This is a test statement", 't') => "statement"
-find_word_with_most_chars("Another test case", 'e') => "Another"
-find_word_with_most_chars("Equal count test", 't') => "test"
-find_word_with_most_chars("No match here", 'z') => None
-find_word_with_most_chars("It's a tie", 't') => "It's"
-find_word_with_most_chars("An apple", 'A') => "An"
+[Problem 1]
+
+split_and_remove_punctuation("Hello, world!") => **["Hello", "world"]**  
+split_and_remove_punctuation("It's a test-case.") => **["It's", "a", "test-case"]**  
+split_and_remove_punctuation("") => **[]**  
+split_and_remove_punctuation("No punctuation here") => **["No", "punctuation", "here"]**  
+
+find_word_with_most_chars("This is a test statement", 't') => **"statement"**  
+find_word_with_most_chars("Another test case", 'e') => **"Another"**  
+find_word_with_most_chars("Equal count test", 't') => **"test"**  
+find_word_with_most_chars("No match here", 'z') => **None**  
+find_word_with_most_chars("It's a tie", 't') => **"It's"**  
+find_word_with_most_chars("An apple", 'A') => **"An"**
