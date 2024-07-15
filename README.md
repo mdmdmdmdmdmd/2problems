@@ -14,15 +14,16 @@ pip install -r required_libs.txt
 
 ## How to Run the Code
 ```bash
-python src/main.py
+python src/main1.py
+python src/main2.py
 ```
 
 ## How to Run Tests
 ```bash
 # Ensure the pytest package is installed. If not, run the following command:
 # pip install pytest
-
-pytest tests/
+pytest -v tests/test1.py
+pytest -v tests/test2.py
 ```
 
 
