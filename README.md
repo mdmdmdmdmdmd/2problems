@@ -33,9 +33,6 @@ pytest -v tests/test2.py
 
 ## [Problem 1] `src/main1.py` Explanation
 ---
-
-
-
 ## Logic
 
 ### Function: `split_and_remove_punctuation`
@@ -93,9 +90,6 @@ By following the above logic and considering the assumptions and edge cases, the
 
 ## [Problem 2] `src/main2.py` Explanation
 ---
-
-
-
 ## Logic
 
 ### Function: `split_and_remove_punctuation`
