@@ -82,12 +82,12 @@ By following the above logic and considering the assumptions and edge cases, the
 
 ## Unit Testing Results
 
-   find_word_with_most_chars("This is a test statement", 't')  =>  **"statement"**  
-   find_word_with_most_chars("Another test case", 'e')  =>  **"Another"**  
-   find_word_with_most_chars("Equal count test", 't')  =>  **"test"**  
-   find_word_with_most_chars("No match here", 'z')  =>  **None**  
-   find_word_with_most_chars("It's a tie", 't')  =>  **"It's"**  
-   find_word_with_most_chars("An apple", 'A')  =>  **"An"**
+   ("This is a test statement", 't')  =>  **"statement"**  
+   ("Another test case", 'e')  =>  **"Another"**  
+   ("Equal count test", 't')  =>  **"test"**  
+   ("No match here", 'z')  =>  **None**  
+   ("It's a tie", 't')  =>  **"It's"**  
+   ("An apple", 'A')  =>  **"An"**
 
 
 ---
