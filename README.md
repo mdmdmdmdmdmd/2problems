@@ -39,7 +39,7 @@ pytest -v tests/test2.py
 ## Logic
 
 ### Function: `split_and_remove_punctuation`
-      Remove Punctuation=>Split Statement into Words=>Return the List of Words
+      Remove Punctuation => Split Statement into Words => Return the List of Words
       
       - The function uses a regular expression to replace all characters that are not word 
             characters (`\w`), whitespace (`\s`), hyphens (`-`), or apostrophes (`'`) with a space.
@@ -47,10 +47,10 @@ pytest -v tests/test2.py
       - This preserves hyphens and apostrophes as they are often part of words (e.g., "it's", "test-case").
    
 ### Function: `find_word_with_most_chars`
-      Split the Statement=>Initialize Counters=>Iterate Through Words=>Return Result
+      Split the Statement => Initialize Counters => Iterate Through Words => Return Result
    
 ### Function: `main`
-      Get User Input=>Validate Input=>Find Word with Most Occurrences of the Character=>Print Result
+      Get User Input => Validate Input => Find Word with Most Occurrences of the Character => Print Result
 
 ## Assumptions
 
@@ -82,12 +82,12 @@ By following the above logic and considering the assumptions and edge cases, the
 
 ## Unit Testing Results
 
-   find_word_with_most_chars("This is a test statement", 't') => **"statement"**  
-   find_word_with_most_chars("Another test case", 'e') => **"Another"**  
-   find_word_with_most_chars("Equal count test", 't') => **"test"**  
-   find_word_with_most_chars("No match here", 'z') => **None**  
-   find_word_with_most_chars("It's a tie", 't') => **"It's"**  
-   find_word_with_most_chars("An apple", 'A') => **"An"**
+   find_word_with_most_chars("This is a test statement", 't')  =>  **"statement"**  
+   find_word_with_most_chars("Another test case", 'e')  =>  **"Another"**  
+   find_word_with_most_chars("Equal count test", 't')  =>  **"test"**  
+   find_word_with_most_chars("No match here", 'z')  =>  **None**  
+   find_word_with_most_chars("It's a tie", 't')  =>  **"It's"**  
+   find_word_with_most_chars("An apple", 'A')  =>  **"An"**
 
 
 ---
