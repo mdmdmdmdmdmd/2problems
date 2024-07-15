@@ -30,7 +30,7 @@ pytest -v tests/test2.py
 
 ## Explanation of the Solutions
 
----
+
 ## [Problem 1] `src/main1.py` Explanation
 ---
 
@@ -90,7 +90,7 @@ By following the above logic and considering the assumptions and edge cases, the
    ("An apple", 'A')  =>  **"An"**
 
 
----
+
 ## [Problem 2] `src/main2.py` Explanation
 ---
 
